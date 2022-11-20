@@ -1,0 +1,84 @@
+.jp-jplayer{ overflow:hidden;}
+div.jp-audio {
+	color: #9f7f9e; 
+	position:relative;
+	width:156px;
+	height:18px; 
+	margin:0px 0 0px 0px; 
+}
+
+
+/* @group CONTROLS */
+
+ul.jp-controls {
+
+	margin:0;
+	padding: 4px 0 0 0 ;
+	display:block;
+	height:20px;
+
+}
+
+
+
+/* @end */
+
+
+/* @group volume controls */
+
+
+a.jp-mute,
+a.jp-unmute,
+a.jp-volume-max {
+	width:12px;
+	height:10px;
+	float:left;
+	display:block;
+}
+a.jp-mute,
+a.jp-unmute {
+	margin-left: 7px;	
+}
+a.jp-volume-max {
+	margin-left: 120px;	
+}
+a.jp-mute {
+	background: url(../images/jplayer_mute.png) top left no-repeat;
+}
+a.jp-mute:hover {
+	background: url(../images/jplayer_mute.png) top right no-repeat;
+}
+a.jp-unmute {
+	background: url(../images/jplayer_unmute.png) top left no-repeat;
+	display: none;
+}
+a.jp-unmute:hover {
+	background: url(../images/jplayer_unmute.png) top right no-repeat;
+}
+
+a.jp-volume-max {
+	background: url(../images/jplayer_volume_max.png) top left no-repeat;
+}
+a.jp-volume-max:hover {
+	background: url(../images/jplayer_volume_max.png) top right no-repeat;
+}
+
+div.jp-txt { position:absolute; top:-15px; right:65px; cursor:default; white-space:nowrap; line-height:14px; font-size:10px; text-transform:uppercase;}
+
+div.jp-volume-bar {
+	position: absolute;
+	top:5px;
+	left:22px;
+	overflow:hidden;
+	background: url(../images/sound_px1.png) 0 0 repeat-x;
+	width:113px;
+	height:7px;
+	cursor: pointer;
+}
+div.jp-volume-bar-value {
+	background: url(../images/sound_px2.png) 0 0 repeat-x;
+	width:0px;
+	height:7px;
+}
+
+/* @end */

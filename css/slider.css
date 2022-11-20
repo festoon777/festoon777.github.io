@@ -1,0 +1,79 @@
+
+.slider {
+	position: absolute; left:0px; top:0px; z-index:6;
+	display: block;
+	width:573px;
+	height:537px;
+	overflow:visible!important;
+}
+
+.items {
+    display: none;
+}
+
+.pagination {
+    position: absolute;
+    left: 194px;
+	bottom: -38px;    
+    z-index: 1000;
+}
+.pagination li {
+    margin-right: 13px;
+	float:left;
+}
+.pagination a {    
+    display: block;    
+    width: 20px;
+	height: 20px;
+	background: url(../images/pagination.png) left top no-repeat;
+}
+
+
+
+.pagination a:hover, .pagination .current a {
+    background-position:right;
+}
+
+
+.banner {
+	width:573px;
+	height:537px;    
+    position:absolute;
+	top: 0;
+    left: 0;    
+    z-index: 99;
+	overflow:hidden;
+}
+
+.banner .banner_inner{ position:absolute; width:573px; height:537px; left:0; top:0; z-index:99;}
+
+.banner .txt1{ font-family:'EnglishRegular'; font-size:35px; color:#564356; line-height:35px; height:35px; padding-left:40px; padding-top:190px;}
+.banner .txt2{ font-family:'TrajanProBold'; font-size:50px; color:#564356; line-height:50px;  padding-left:40px; padding-top:10px;}
+.banner .txt3{ font-family:'TrajanProBold'; font-size:20px; color:#564356; line-height:30px; padding-left:40px; padding-top:10px;}
+.banner .txt4{ font-family:'EnglishRegular'; font-size:35px; color:#564356; line-height:35px; height:35px; padding-left:40px; padding-top:20px;}
+
+.banner.item1 .txt1{ }
+.banner.item1 .txt2{ text-transform:uppercase; letter-spacing:5px; text-transform:uppercase; }
+.banner.item1 .txt3{ text-transform:uppercase; letter-spacing:3px; }
+
+.banner.item2 .txt1{ padding-top:100px;}
+.banner.item2 .txt2{font-family:'EnglishRegular'; font-size:45px;line-height:50px; _color:#38678b; }
+
+
+.banner.item3 .txt1{ font-family:'TrajanProBold'; font-size:50px; color:#fff; line-height:50px; padding-top:20px;}
+.banner.item3 .txt2{ font-family:'EnglishRegular'; font-size:45px;line-height:20px; _color:#38678b; }
+
+.banner.item4 .txt1{  padding-top:20px;}
+.banner.item4 .txt2{ font-family: Helvetica, Arial, sans-serif; font-size:24px; line-height:90px; letter-spacing:0px; text-transform:lowercase;  }
+
+
+
+/*.progbar {
+	background:#000;
+	width:100%;
+	height:2px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:6;
+}*/
